@@ -45,7 +45,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
             newImg.classList.add('img-container');
         
             headline.textContent = topicArticle.headline;
-            newImg.src = topicArticle.authorPhoto;
+            imgSource.src = topicArticle.authorPhoto;
             authorName.textContent = `By ${topicArticle.authorName}`;
 
             cardComponents.appendChild(card);
